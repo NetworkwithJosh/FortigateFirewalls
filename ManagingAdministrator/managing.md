@@ -51,7 +51,7 @@ FortiGate includes several administrator profiles that determine what an adminis
 
 The **super_admin** profile provides unrestricted Read/Write access to every configuration category within the firewall.
 
-![Administrator Profiles](images/01-admin-profiles.png)
+![Administrator Profiles](images/managing1.png)
 
 ---
 
@@ -67,7 +67,7 @@ A new local administrator account named **Joshua** was created.
 
 The account was configured with the **super_admin** profile, granting complete administrative control of the FortiGate firewall.
 
-![Create Super Administrator](images/02-create-super-admin.png)
+![Create Super Administrator](images/managing2.png)
 
 ---
 
@@ -91,7 +91,7 @@ The **super_admin** administrator profile grants unrestricted Read/Write permiss
 
 These permissions allow a Super Administrator to configure every aspect of the firewall including firewall policies, VPNs, routing, interfaces, security profiles, firmware upgrades, and system settings.
 
-![Super Administrator Permissions](images/03-super-admin-permissions.png)
+![Super Administrator Permissions](images/managing3.png)
 
 ---
 
@@ -106,7 +106,7 @@ After creating the administrator account, the FortiGate administrator list now c
 
 Both accounts currently have unrestricted administrative privileges.
 
-![Administrator Accounts](images/04-admin-users.png)
+![Administrator Accounts](images/managing4.png)
 
 ---
 
@@ -132,7 +132,7 @@ Typical responsibilities include:
 
 Configuration changes such as editing firewall rules or creating VPNs are not permitted.
 
-![Create Read-Only Administrator](images/05-create-readonly-admin.png)
+![Create Read-Only Administrator](images/managing5.png)
 
 ---
 
@@ -146,7 +146,7 @@ After completing the lab, the FortiGate firewall contained three administrator a
 | Joshua | super_admin | Full administrative access |
 | Tara | Read-Only | Monitoring and auditing |
 
-![Final Administrator List](images/06-final-admin-list.png)
+![Final Administrator List](images/managing6.png)
 
 ---
 
